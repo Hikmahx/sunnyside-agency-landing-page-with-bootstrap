@@ -41,4 +41,23 @@ nav ul li:last-child a {
 .barlow {
   font-family: 'Barlow', sans-serif;
 }
+
+button::after {
+  content: '';
+  position: absolute;
+  width: 110%;
+  bottom: 0;
+  left: -5%;
+  height: 0.5rem;
+  border-radius: 1rem;
+  opacity: 0.3;
+}
+
+.yellow::after {
+  background-color: #fad400;
+}
+
+.soft-red::after {
+  background-color: #fe7867;
+}
 /*# sourceMappingURL=style.css.map */
