@@ -33,4 +33,12 @@ nav ul li a {
 nav ul li:last-child a {
   font-family: 'Fraunces', sans-serif;
 }
+
+.fraunces {
+  font-family: 'Fraunces', sans-serif;
+}
+
+.barlow {
+  font-family: 'Barlow', sans-serif;
+}
 /*# sourceMappingURL=style.css.map */
