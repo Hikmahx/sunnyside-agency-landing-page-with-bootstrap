@@ -20,9 +20,9 @@
     <title>Sunnyside Agency Landing Page</title>
   </head>
   <body id="page-top">
-    <header class="vh-100 pt-lg-3">
+    <header class="pt-lg-3 w-100">
       <!-- Navigation -->
-      <nav class="navbar navbar-expand-lg py-3">
+      <nav style="z-index: 2;" class="navbar navbar-expand-lg py-3">
         <div class="container px-4 px-lg-0 d-flex justify-content-between">
           <a href="#page-top" class="navbar-brand mx-2" aria-label="logo">
             <img class="w-100" src="./images/logo.svg" alt="logo">
@@ -49,6 +49,20 @@
             </ul>
           </div>
       </nav>
+
+      <!-- Hero -->
+      <div class="hero w-100 h-100 position-relative">
+        <div class="image-wrapper w-100">
+          <img style="margin-top: -4.8rem" class="d-lg-none w-100" src="./images/mobile/image-header.jpg" alt="hero">
+          <img style="margin-top: -6.5rem" class="d-none d-lg-block w-100" src="./images/desktop/image-header.jpg" alt="hero">
+        </div>
+        <div class="hero-text text-white text-center position-absolute text-uppercase fraunces top-50 start-50 translate-middle">
+          <h1 style="margin-top: -4rem;">
+            we are creatives
+          </h1>
+          <img class="d-flex align-items-center justify-content-center mx-auto" src="./images/icon-arrow-down.svg" alt="arrow">
+        </div>
+      </div>
 
     </header>
 
