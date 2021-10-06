@@ -87,3 +87,11 @@ button{
     background-color: $soft-red;
   }
 }
+
+.green-text{
+  color: #2c7466;;
+  &:hover{
+    color: #fff;
+    transition:0.2s ease-in-out;
+  }
+}

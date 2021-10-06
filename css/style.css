@@ -60,4 +60,14 @@ button::after {
 .soft-red::after {
   background-color: #fe7867;
 }
+
+.green-text {
+  color: #2c7466;
+}
+
+.green-text:hover {
+  color: #fff;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
 /*# sourceMappingURL=style.css.map */
