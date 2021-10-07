@@ -40,8 +40,31 @@ nav{
       box-shadow: none;
     }
   }
+  
+  @media(max-width:995px){
+    .show{
+      ul{
+        opacity: 1;
+        transition: 0.4s ease-in-out;
+      }
+    }
+  }
 
   ul{
+    @media(max-width:995px){
+      background-color: #fe6f61;
+      position: fixed;
+      width: 80%;
+      padding: 2rem 0;
+      top: 5rem;
+      left: 0;
+      right: 0;
+      border-radius: 0.5rem;
+      margin: auto;
+      transition:  0.4s ease-in-out;
+      opacity: 0;
+    }
+
     li{
       a{
         font-family: 'Barlow', sans-serif;

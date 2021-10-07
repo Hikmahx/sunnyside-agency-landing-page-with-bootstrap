@@ -26,6 +26,31 @@ nav .navbar-toggler:focus {
           box-shadow: none;
 }
 
+@media (max-width: 995px) {
+  nav .show ul {
+    opacity: 1;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+}
+
+@media (max-width: 995px) {
+  nav ul {
+    background-color: #fe6f61;
+    position: fixed;
+    width: 80%;
+    padding: 2rem 0;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    border-radius: 0.5rem;
+    margin: auto;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+  }
+}
+
 nav ul li a {
   font-family: 'Barlow', sans-serif;
 }
