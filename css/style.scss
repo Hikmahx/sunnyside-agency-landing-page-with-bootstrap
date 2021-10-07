@@ -59,10 +59,21 @@ nav{
       top: 5rem;
       left: 0;
       right: 0;
-      border-radius: 0.5rem;
       margin: auto;
       transition:  0.4s ease-in-out;
       opacity: 0;
+
+      &::before{
+        content: "";
+        position: absolute;
+        border-left: 1rem solid transparent;
+        border-right: 1rem solid #fe6f61;
+        border-bottom: 1rem solid transparent;
+        border-top: 1rem solid transparent;
+        top: 0;
+        right: 0;
+        transform: translateY(-50%);
+      }
     }
 
     li{
